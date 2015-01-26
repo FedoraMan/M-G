@@ -1,0 +1,329 @@
+@import url(http://fonts.googleapis.com/css?family=Bitter:400,700);
+
+body {
+	font-family: "Bitter", serif;
+	margin: 2%;
+	background-color: #622A13;
+}
+
+
+img {
+	max-width: 70%;
+}
+
+/* THE ALMIGHTY CLEARFIX */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  *zoom: 1;
+}
+
+/*********************Header****************/
+
+header {
+	
+	position: relative;
+	padding: 0px;
+}
+
+.wood {
+	background-image: url(../images/Wood_Texture_by_ReaperOfBlood.jpg);
+}
+
+.logo {
+	display: block;
+	background-image: url(../images/mglogo.svg);
+	background-repeat: no-repeat;
+	text-indent: -999999px;
+	width: 120px;
+	height: 120px;	
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 35%;
+}
+
+.contactinfo {
+	color: #fff;
+	font-size: .65em;
+	text-shadow: 2px 2px 0.8px #000;
+}
+
+.top {
+	display: none;
+}
+
+.goaway {
+	float: right;
+	text-indent: -999999px;
+}
+
+.menuButton {
+	color: #fff;
+	display: block;
+	text-decoration: none;
+	background-color: #375D5D;
+	text-align: center;
+	clear: both;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.menuButton:hover {
+	background-color: #788867;
+}
+
+.mainnav {
+
+
+}
+
+.menuhide {
+	display: none;
+	list-style: none;
+	clear: both;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+.menuhide li {
+	
+}
+
+.menuhide a {
+	color: #fff;
+	display: block;
+	text-decoration: none;
+	background-color: #375D5D;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	clear: both;
+}
+
+.menuhide a:hover {
+	background-color: #788867;
+}
+
+
+
+/*********************MAIN****************/
+
+
+.greenbackground {
+	background-color: #375D5D;
+	padding: 2%;
+	color: #fff;
+	text-align: center;
+	position: relative;
+}
+
+.homeimg {
+	max-width: 100%;
+}
+
+.readmore {
+	text-decoration: none;
+	color: #fff;
+	background-color: #788867;
+	padding: 5px;
+	border-radius: 3px;
+	margin-left: 0px;
+
+}
+
+.practices li {
+		text-align: left;
+	}
+
+
+.notepad{
+	background-image: url(../images/notebook_@2x.png);
+	padding: 5px;
+	text-align: center;
+	color: #000;
+}
+
+.notepad li {
+	text-align: left;
+}
+
+/*********************FOOTER****************/
+footer {
+	position: relative;
+	padding: 5px;
+	clear: both;
+}
+
+
+.footernav ul{
+	list-style: none;
+	
+}
+
+.footernav li {
+	display: inline;
+}
+
+.footernav a{
+	color: #fff;
+	text-decoration: none;
+	font-size: .60em;
+	text-shadow: 2px 2px 0.8px #000;
+	padding-left: 5px;
+}
+
+.bottom {
+	font-size: .60em;
+	padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************** 520px *****************/
+
+@media screen and (min-width: 520px) {
+
+
+	.logo {
+		margin-left: 2%;
+		float: left;
+
+	}
+	
+	.top {
+		display: block;
+		float: right;
+		margin-right: 2%;
+	}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/**************** 900px **********************/
+@media screen and (min-width: 900px) {
+
+	.mainnav {
+		display: inline;
+	}
+
+	.menuButton{
+		display: none;
+	}
+
+	.menuhide {
+		display: inline;
+	}
+
+	.greenhome {
+		padding-bottom: 430px;
+	}
+
+
+	.practices {
+		width: 38%;
+		float: left;
+	}
+
+	.practices h2 {
+		text-align: left; 
+		font-size: 1.2em;
+	}
+
+	.featured {
+		width: 23%;
+		text-align: left;
+		/*position: absolute;*/
+		float: right;
+		margin-right: 18%;
+		margin-bottom: 1%;
+
+
+	}
+
+	.featured h2 {
+		font-size: 1.2em;
+	}
+
+	.featured img{
+		max-width: 55%;
+	}
+
+	footer {
+		padding-bottom: 100px;
+	}
+
+	.bottom {
+		float: left;
+	}
+
+
+	.footernav {
+		float: right;
+	}
+
+	.murphyimg {
+		float: left;
+		padding: 24px;
+		max-width: 35%;
+	}
+
+	.info {
+		text-align: left;
+	}
+
+	.info h2 {
+		text-align: center;
+	}
+
+}
+
+
+
+
+
+
+
