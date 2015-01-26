@@ -137,11 +137,15 @@ main {
 .readmore {
 	text-decoration: none;
 	color: #fff;
-	background-color: #6B9940;
+	background-color: #75AAAA;
 	padding: 7px;
 	border-radius: 3px;
 	margin-left: 0px;
 
+}
+
+.readmore:hover {
+	background-color: #788867;
 }
 
 .practices li {
@@ -172,6 +176,31 @@ main {
 .overviewblock h2 {
 	color: #375D5D;
 }
+
+.attorneynav ul {
+	list-style: none;
+	clear: both;
+	margin: 0px;
+	padding: 0px;
+}
+
+.attorneynav a {
+	color: #fff;
+	display: block;
+	text-decoration: none;
+	background-color: #375D5D;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	clear: both;
+}
+
+.attorneynav a:hover {
+	background-color: #788867;
+}
+
+
+
 
 /*********************FOOTER****************/
 footer {
@@ -300,6 +329,24 @@ footer {
 		padding-bottom: 430px;
 	}
 
+	.attgreen{
+		padding-bottom: 1607px;
+	}
+
+	.attpage {
+		width: 66%;
+		float: right;
+	}
+
+	.attorneynav {
+		float: right;
+		margin-right: 7px;
+		
+	}
+
+	.attorneynav a {
+		text-align: left;
+	}
 
 	.practices {
 		width: 38%;
@@ -361,6 +408,8 @@ footer {
 	.info h2 {
 		text-align: center;
 	}
+
+	
 
 }
 
